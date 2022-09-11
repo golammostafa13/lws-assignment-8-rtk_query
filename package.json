@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/golammostafa13/lws-assignment-8-rtk_query/issues"
   },
-  "homepage": "https://github.com/golammostafa13/lws-assignment-8-rtk_query#readme"
+  "homepage": "https://github.com/golammostafa13/lws-assignment-8-rtk_query#readme",
+  "engines": {
+    "node": "16.15.0"
+  }
 }
