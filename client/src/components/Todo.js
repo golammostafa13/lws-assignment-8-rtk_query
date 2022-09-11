@@ -46,24 +46,23 @@ export default function Todo({todo}) {
 
     const submitHandler = (e) => {
         e.preventDefault();
-        console.log("submitted");
     }
 
     return (
         <div className="flex justify-start items-center p-2 hover:bg-gray-100 hover:transition-all space-x-4 border-b border-gray-400/20 last:border-0" >
             <div
                 className={`cursor-pointer relative rounded-full bg-white border-2 border-gray-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 ${
-                    complete &&
+                    completed &&
                     "border-green-500 focus-within:border-green-500"
                 }`}
             >
                 <input
                     type="checkbox"
-                    checked={complete}
+                    checked={completed}
                     onChange={() => handleStatusChange(id)}
                     className="opacity-0 absolute rounded-full cursor-pointer"
                 />
-                {complete && (
+                {completed && (
                     <svg
                         className="fill-current w-3 h-3 text-green-500 pointer-events-none"
                         viewBox="0 0 20 20"
