@@ -1,0 +1,19 @@
+{
+  "name": "todo_rtk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golammostafa13/lws-assignment-8-rtk_query.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golammostafa13/lws-assignment-8-rtk_query/issues"
+  },
+  "homepage": "https://github.com/golammostafa13/lws-assignment-8-rtk_query#readme"
+}
